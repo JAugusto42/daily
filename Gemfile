@@ -13,6 +13,7 @@ gem "stimulus-rails"
 gem "cssbundling-rails"
 gem "jbuilder"
 gem "bootsnap", require: false
+gem 'simple_form', '~> 5.1'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
